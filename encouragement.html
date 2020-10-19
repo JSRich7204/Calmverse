@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Encouragement Generator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src = "main.js"></script>
+        <script src = "encouragement.js"></script>
+        <script src="https://kit.fontawesome.com/c9d3a94d7a.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </head>
+
+    <body id = "background">
+        <div id="mySidenav" class="sidenav">
+            <a href = "index.html"><button id = "home"><i class="fas fa-home"></i>Home</button></a>
+            <button onclick="defaultMode()" id ="toDefaultMode" class="navtabs"><i class="fas fa-meteor"></i> Default Mode</button>
+            <button onclick="nightMode()" id ="toDarkMode" class="navtabs"><i class="fas fa-moon"></i> Dark Mode</button>
+            <button onclick="dayMode()" id ="toDayMode" class="navtabs"><i class="fas fa-sun"></i> Day Mode</button>
+            <button onclick="musicOn()" id = "sound" class="navtabs"><i class="fas fa-volume-up"></i> Background Music On</button>
+            <button onclick="musicOff()" id = "noSound" class="navtabs"><i class="fas fa-volume-off"></i> Background Music Off</button>
+            <a href="resources.html"><button id = "resources" class = "navtabs"><i class="fas fa-book-open"></i>Resources</button></a>
+            <a href="about.html"><button id = "about" class = "navtabs"><i class="fas fa-info"></i>About</button></a>
+        </div>
+        <h1 id = "mainFont2">Encouragement Generator</h1>
+            <div id = "quoteDisplay">
+        
+            </div>
+                <button onclick = "newQuote()" id = "mainButton">Encourage Me</button>
+            </div>      
+        </div>
+        <div id = "music">
+            <audio autoplay hidden loop id = "backgroundMusic">
+                <source src="[Non-Copyrighted Music] Chill Jazzy Lofi Hip Hop (Royalty Free) Jazz Hop Music.mp3" type="audio/mpeg">
+            </audio>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+
+
+
+</html>

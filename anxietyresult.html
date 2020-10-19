@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Calm Universe 340</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src = "main.js"></script>
+        <script src="https://kit.fontawesome.com/c9d3a94d7a.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </head>
+
+    <body id = "background">
+        <div id="mySidenav" class="sidenav">
+            <a href = "index.html"><button id = "home"><i class="fas fa-home"></i>Home</button></a>
+            <button onclick="defaultMode()" id ="toDefaultMode" class="navtabs"><i class="fas fa-meteor"></i> Default Mode</button>
+            <button onclick="nightMode()" id ="toDarkMode" class="navtabs"><i class="fas fa-moon"></i> Dark Mode</button>
+            <button onclick="dayMode()" id ="toDayMode" class="navtabs"><i class="fas fa-sun"></i> Day Mode</button>
+            <button onclick="musicOn()" id = "sound" class="navtabs"><i class="fas fa-volume-up"></i> Background Music On</button>
+            <button onclick="musicOff()" id = "noSound" class="navtabs"><i class="fas fa-volume-off"></i> Background Music Off</button>
+            <a href="resources.html"><button id = "resources" class = "navtabs"><i class="fas fa-book-open"></i>Resources</button></a>
+            <a href="about.html"><button id = "about" class = "navtabs"><i class="fas fa-info"></i>About</button></a>
+        </div>
+        <div class="maincontent">
+            <h2 class= "welcome"> Welcome to Calm Universe #340: <h2 id = "anxUniverse" class="welcome">Anxiety</h2></h2>
+            <img src="https://codehs.com/uploads/e030429fd1d18c7eb39aaa536a57f752" id = "resultPic">
+            <h4 class = "description"> This calm universe specializes in stress and is great for people who are currently stressed out and/or prone to anxiety attacks.</h4>
+            <hr class="separate">
+            <h2 class= "welcome">Games</h2>
+            <h4 class="gamesDescription">Here are the games of this calm universe:</h4>
+            <table>
+                <tr>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="bubblepop.html" target="_blank">
+                            <button class="showgames">
+                                <div class="gamecard">
+                                    <img src="https://codehs.com/uploads/15b70647ee0bc631fdff142706ee53f1" alt="Bubbles" style="width:100%">
+                                    <div class="container">
+                                      <h5>Bubble Pop</h5>
+                                      <p>Take your mind off of things and just pop some bubbles!</p>
+                                    </div>
+                                  </div>
+                            </button>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="crystalgem.html" target="_blank">
+                            <button class="showgames"> 
+                                <div class="gamecard">
+                                    <img src="https://codehs.com/uploads/49b53130b4cb7232ca73c27695eafe4f" alt="Crystal Gems" style="width:100%">
+                                    <div class="container">
+                                      <h5>Crystal Gem Match</h5>
+                                      <p>Relax and match the gems!</p>
+                                    </div>
+                                  </div>
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="encouragement.html" target="_blank">
+                            <button class="showgames" id = "thirdchoice"> 
+                                <div class="gamecard">
+                                    <img src="https://codehs.com/uploads/ebe886684428b1771400eef3f2549a6f" alt="Encouragement Generator" style="width:100%">
+                                    <div class="container">
+                                      <h5>Encouragement Generator</h5>
+                                      <p>Feel encouraged with the Encouragement generator!</p>
+                                    </div>
+                                  </div>
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <hr class="separate"> 
+        </div>
+
+    </body>
+</html>

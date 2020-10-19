@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Find Your Calm Universe</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src = "main.js"></script>
+        <script src="https://kit.fontawesome.com/c9d3a94d7a.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </head>
+
+    <body id = "background">
+        <div id="mySidenav" class="sidenav">
+            <a href = "index.html"><button id = "home"><i class="fas fa-home"></i>Home</button></a>
+            <button onclick="defaultMode()" id ="toDefaultMode" class="navtabs"><i class="fas fa-meteor"></i> Default Mode</button>
+            <button onclick="nightMode()" id ="toDarkMode" class="navtabs"><i class="fas fa-moon"></i> Dark Mode</button>
+            <button onclick="dayMode()" id ="toDayMode" class="navtabs"><i class="fas fa-sun"></i> Day Mode</button>
+            <button onclick="musicOn()" id = "sound" class="navtabs"><i class="fas fa-volume-up"></i> Background Music On</button>
+            <button onclick="musicOff()" id = "noSound" class="navtabs"><i class="fas fa-volume-off"></i> Background Music Off</button>
+            <a href="resources.html"><button id = "resources" class = "navtabs"><i class="fas fa-book-open"></i>Resources</button></a>
+            <a href="about.html"><button id = "about" class = "navtabs"><i class="fas fa-info"></i>About</button></a>
+        </div>
+        <h1 id = "mainFont2">Let's Find Your Calm Universe</h1>
+        <div class="maincontent">
+            <h1 class = "quizQuestions"> What seems to be the problem?</h1>
+            <table>
+                <tr>
+                    <th> </th>
+                </tr>
+                <tr>
+                    <td>
+                        <a href= "anxietyresult.html" target="_blank">
+                            <button class="answerChoices">
+                                    <div class="card">
+                                        <img src="https://codehs.com/uploads/10202152e1afec2c2aa5a2591d94642b" alt="Anxious Person" style="width:50%">
+                                        <div class = "container">
+                                            <h5>Stressed Out / Anxiety</h5>
+                                                <p>Symptoms may include:</p>
+                                                <div class="column">
+                                                    <ul>
+                                                        <li>Restlessness</li>
+                                                        <li>Excessive Worry</li>
+                                                        <li>Palpitations</li>
+                                                        <li>Irritability</li>
+                                                        <li>Breathing Rapidly (hyperventilation)</li>
+                                                    </ul>
+                                                </div>          
+                                        </div>
+                                    </div> 
+                            </button>
+                        </a>
+                    </td>
+                    <td>    
+                        <a href = "depressionresult.html" target="_blank">    
+                            <button class="answerChoices">
+                                    <div class="card">
+                                        <img src="https://codehs.com/uploads/684bdb7bafd138d5df8976e7f4a93362" alt="Depressed Person" style="width: 50%">
+                                        <div class = "container">
+                                            <h5>Extreme Sadness / Depression</h5>
+                                                <p>Symptoms may include:</p>
+                                                    <ul>
+                                                            <li>Restlessness/Insomnia</li>
+                                                            <li>Excessive Crying</li>
+                                                            <li>Lack of Concentration</li>
+                                                            <li>Irritability</li>
+                                                            <li>Fatigue</li>
+                                                            <li>Slowness in activity</li>
+                                                    </ul>
+                                        </div>
+                                    </div>
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <a href="anger.html" target="_blank">
+                            <button class="answerChoices" id = "thirdchoice">
+                                    <div class="card">
+                                        <img src="https://codehs.com/uploads/3f01f318bfdc3221e1a6435733ce5e28" alt="Angry Person" style="width:50%">
+                                        <div class = "container">
+                                            <h5>Feeling Angry/Anger Issues</h5>
+                                                <p>Symptoms may include:</p>
+                                                <div class="column">
+                                                    <ul>
+                                                        <li>Rage</li>
+                                                        <li>Rapid Heart Rate</li>
+                                                        <li>Headache</li>
+                                                        <li>Irritability</li>
+                                                        <li>Shaking or Trembling</li>
+                                                    </ul>
+                                                </div>
+                                        </div>
+                                    </div>
+                            </button>
+                        </a>
+                        <br>
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+    </body>
+
+
+
+</html>

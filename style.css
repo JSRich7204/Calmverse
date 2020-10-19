@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'Handayani';
+    src: url('C:\Users\smart\OneDrive\Documents\Calmverse\handayani.woff2') format('woff2'),
+        url('C:\Users\smart\OneDrive\Documents\Calmverse\handayani.woff') format('woff'),
+        url('C:\Users\smart\OneDrive\Documents\Calmverse\handayani.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    font-family: 'Fine Spring';
+    src: url('C:\Users\smart\OneDrive\Documents\Calmverse\fonts\FineSpring.woff2') format('woff2'),
+        url('C:\Users\smart\OneDrive\Documents\Calmverse\fonts\FineSpring.woff') format('woff'),
+        url('C:\Users\smart\OneDrive\Documents\Calmverse\fonts\FineSpring.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Grand+Hotel:regular);
+@import url(https://fonts.googleapis.com/css?family=Sansita+Swashed:300,regular,500,600,700,800,900);
+
+
+#mainFont {
+    font-family: Handayani;
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 36%;
+}
+
+.center {
+    padding: 70px;
+}
+
+#background {
+    background-image: url(https://codehs.com/uploads/8e207b6ae46a944959614c5439a7176b);
+    background-size: cover;
+}
+
+
+#mainButton {
+    border: none;
+    margin: auto;
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+    position: absolute;
+    background-color: #9d3be1;
+    font-family: 'Grand Hotel';
+    font-size: 16px;
+    align-items: center;
+    top: 55%;
+    left: 44%;
+}
+
+i {
+    color: white;
+}
+
+#mainIcon{
+    color: white;
+}
+
+#mySidenav button{
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a{
+    text-decoration: none;
+}
+
+#mySidenav button:hover {
+    left: 0;
+}
+
+#home{
+    top: 40px;
+    background-color: #9d3be1;
+    border-color: transparent;
+    color: white;
+}
+
+#toDefaultMode {
+    top: 80px;
+    background-color: #9d3be1;
+    border-color: transparent;
+    color: white;
+}
+
+#toDarkMode {
+    top: 140px;
+    background-color: #9d3be1;
+    border-color: transparent;
+    color: white;
+}
+
+#toDayMode {
+    top: 200px;
+    background-color: #9d3be1;
+    border-color: transparent;
+    color: white;
+}
+
+#sound{
+    top: 260px;
+    background-color: #9d3be1;
+    border-color: transparent;
+    color: white;
+}
+
+#noSound{
+    top: 320px;
+    background-color: #9d3be1;
+    border-color: transparent;
+    color: white;
+}
+
+
+
+#resources{
+    top: 380px;
+    background-color: #9d3be1;
+    border-color: transparent;
+    color: white;
+}
+
+#about{
+    top: 440px;
+    background-color: #9d3be1;
+    border-color: transparent;
+    color: white;
+}
+
+.maincontent{
+    color:black;
+    background-color:white;
+    width: 950px;
+    margin:auto;
+}
+
+#quoteDisplay{
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    height: 200px;
+    position: absolute;
+    width: 400px;
+    left: 35%;
+    top:20%;
+    background-color: white;
+    font-family: 'Sansita Swashed';
+}
+
+#mainFont2{
+    font-family: Handayani;
+    color: white;
+    font-size: 85px;
+    text-align: center;
+}
+
+.games{
+    height: 600px;
+    width: 800px;
+    padding-left: 19%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 400px;
+    height: 300px;
+    margin-right: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.quizQuestions {
+    font-family: 'Grand Hotel';
+    color: black;
+    text-align: center;
+}
+
+.answerChoices{
+    width: 400px;
+    border: none;
+    height: 200px;
+    margin: 40px;
+}
+
+img{
+    margin: auto;
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+table{
+    border: none;
+    border-spacing: 100px;
+}
+
+
+
+ul, li {
+    font-size: 12px;
+    column-count: 2;
+    column-width: 100px;
+}
+
+#thirdchoice{
+    margin-left: 63%;
+    margin-top: 13.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.welcome{
+    font-family: 'Grand Hotel';
+    color: black;
+    text-align: center;
+}
+
+#angerUniverse{
+    color: #ff1616;
+}
+
+#sadUniverse{
+    color: #38b6ff;
+}
+
+#anxUniverse{
+    color: #51bd23;
+}
+
+#resultPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.description{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.separate{
+    display: block;
+    margin-top: 0.5em; 
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.gamesDescription{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.showgames{
+    width: 400px;
+    border: none;
+    height: 200px;
+    margin: 40px;
+}
+
+.gamecard{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 400px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.gamecard:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

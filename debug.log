@@ -1,0 +1,18 @@
+[0927/131904.007:ERROR:settings.cc(325)] Settings version is not 1
+[0927/163323.624:ERROR:file_io.cc(90)] ReadExactly: expected 152, observed 40
+[1004/151045.341:ERROR:settings.cc(325)] Settings version is not 1
+[1015/113032.278:ERROR:file_io.cc(90)] ReadExactly: expected 152, observed 40
+[1015/141227.150:ERROR:settings.cc(325)] Settings version is not 1
+[1017/084905.599:ERROR:file_io.cc(90)] ReadExactly: expected 152, observed 40
+[1017/085025.034:ERROR:settings.cc(325)] Settings version is not 1
+[1017/085539.499:ERROR:file_io.cc(90)] ReadExactly: expected 152, observed 40
+[1017/161831.264:ERROR:settings.cc(325)] Settings version is not 1
+[1017/162057.356:ERROR:file_io.cc(90)] ReadExactly: expected 152, observed 40
+[1018/111109.927:ERROR:settings.cc(325)] Settings version is not 1
+[1018/111302.157:ERROR:file_io.cc(90)] ReadExactly: expected 152, observed 40
+[1018/111510.764:ERROR:settings.cc(325)] Settings version is not 1
+[1018/150753.554:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1018/160420.590:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/091052.871:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/101424.831:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1019/104548.009:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
